@@ -1,0 +1,4 @@
+Model,Original Macro-F1,Modified Macro-F1,Performance Drop (%)
+TF-IDF + Logistic Regression,0.9894818851767456,0.9894818851767456,0.0
+TF-IDF + Linear SVM,0.9932382137840139,0.9932382137840139,0.0
+Sentence Embeddings + Logistic Regression,0.9438986669672096,0.9438986669672096,0.0

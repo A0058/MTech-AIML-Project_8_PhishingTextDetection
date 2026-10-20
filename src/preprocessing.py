@@ -29,6 +29,7 @@ REPLACEMENTS = {
 
 def load_dataset(path):
     df = pd.read_csv(path)
+    df.columns =df.columns.str.strip()
     required = {"text_combined", "label"}
     if not required.issubset(df.columns):
         raise ValueError(
